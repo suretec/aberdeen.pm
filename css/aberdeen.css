@@ -1,0 +1,90 @@
+/*
+
+CSS for http://aberdeen.pm.org
+
+Written by Gavin Henry
+
+Copyright 2005 Gavin Henry and Suretec Systems Ltd.
+
+License: GPL
+
+Feel free to steal ;-)
+
+*/ 
+
+	@media print {
+		body {
+			background-color: white
+			}
+	}
+
+
+	body {
+		margin: 			50px 100px 0px 100px;
+		background-color: 	#006699;
+		font-family: 		"Trebuchet MS", Trebuchet, Verdana, Sans-Serif, "Bitstream Vera Sans", Verdana, Sans;
+/*		background-image:	url("http://aberdeen.pm.org/images/perl.gif");
+		background-repeat:	repeat; */
+	}
+	
+	#page {
+		margin: 			0px;
+		border: 			1px solid black;
+		background-color: 	white;
+	}
+	
+	#svn {
+		margin:				20px;
+		padding:			10px;
+		border:				1px solid grey;	
+		background-color:	#F0F8FF;
+	}
+	
+	a:link {
+		color:	 			#006699;
+		text-decoration: 	none;
+	}
+
+	a:visited {
+		color:	 			#006699;
+		text-decoration: 	none;
+	}
+
+	a:hover {
+		color:				#B70000;
+		text-decoration: 	none;
+	}
+	
+	h1, h2, h3 {
+		color: 				#B70000;
+		border-bottom: 		1px solid #cccccc;
+	}
+	
+	hr {
+		color: 				#023390;
+		background-color: 	#023390;
+	}
+	
+	.headerfooterStandard {
+		font-family:		Verdana, Arial, Helvetica, sans-serif;
+		font-size: 			8pt;
+		color: 				#006699;
+		text-decoration: 	none;
+	}
+
+	a.headerfooterStandard:link {
+		color: 				#006699;
+		text-decoration: 	underline;
+	}
+
+
+	a.headerfooterStandard:visited {
+		color: 				#006699;
+		text-decoration: 	underline;
+	}
+
+
+	a.headerfooterStandard:hover {
+		color: 				#B70000;
+		text-decoration: 	underline;
+	}
